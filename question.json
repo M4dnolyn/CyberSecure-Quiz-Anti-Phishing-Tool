@@ -1,0 +1,57 @@
+[
+  {
+    "id": 1,
+    "question": "Qu'est-ce qu'un mot de passe fort ?",
+    "options": [
+      "Un mot simple facile à retenir",
+      "Un mot de passe avec majuscules, chiffres et caractères spéciaux",
+      "La date de naissance de l'utilisateur",
+      "123456 ou password"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 2,
+    "question": "Quel est le but principal du phishing ?",
+    "options": [
+      "Améliorer la sécurité d'un compte",
+      "Voler des informations personnelles ou financières",
+      "Envoyer des fichiers lourds rapidement",
+      "Faire une sauvegarde de données"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 3,
+    "question": "Quelle est la meilleure pratique pour reconnaître un email de phishing ?",
+    "options": [
+      "Cliquer sur tous les liens pour vérifier",
+      "Regarder l'adresse de l'expéditeur et les fautes dans le message",
+      "Répondre directement pour demander confirmation",
+      "Télécharger les pièces jointes pour vérifier"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 4,
+    "question": "HTTPS dans une URL signifie :",
+    "options": [
+      "Que le site est automatiquement fiable",
+      "Que la connexion entre vous et le site est chiffrée",
+      "Que le site est un site officiel du gouvernement",
+      "Que le site est gratuit"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 5,
+    "question": "Que faire si vous recevez un email suspect avec une pièce jointe ?",
+    "options": [
+      "Ouvrir la pièce jointe pour voir ce que c'est",
+      "Transférer l'email à tous vos contacts",
+      "Supprimer l'email sans ouvrir la pièce jointe",
+      "Répondre à l'email pour demander des détails"
+    ],
+    "answer": 2
+  }
+]
