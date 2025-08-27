@@ -1,0 +1,105 @@
+/*Variables CSS pour une gestion facile des couleurs on utilise :root pour les variables globales
+*/
+
+:root {
+  --primary: #265e74;
+  --secondary: #280131;
+  --success: #b62faf;
+  --danger: #f72585;
+  --light: #f8f9fa;
+  --dark: #212529;
+}
+
+/* Réinstialisation des styles par defaut des navigateurs */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI";
+
+  /*Styles de base pour */
+}
+body {
+  background-color: #f0f2f5;
+  color: var(--dark);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+/* En-tete de la page */
+header {
+  background: linear-gradient(135deg, var(--primary), var(--secondary));
+  color: white;
+  padding: 1.5rem;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Conteneur principal */
+.container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+  flex: 1;
+}
+
+.card {
+  background: white;
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 6px 15 px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem;
+  transition: transform 0.3s ease;
+}
+
+.card: :hover {
+  transform: translateY(-5px);
+}
+
+/*Alignement du texte au centre pour les écrans */
+.welcome-screen {
+  text-align: center;
+}
+.welcome-screen h2 {
+  margin-bottom: 1rem;
+  color: var(rgb(238, 255, 0));
+}
+
+.welcome-screen p {
+  margin-bottom: 2rem;
+  color: #353232;
+}
+
+/* Styles de bases pour les boutons */
+.btn {
+  padding: 0.8rem 1.5rem;
+  border: none;
+  border-radius: 50px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn-primary {
+  background: var(--primary);
+  color: yellowgreen;
+}
+
+.btn-primary :hover {
+  background: var(--secondary);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(41, 104, 163, 0.2);
+}
+
+.btn-secondary {
+  background: var(--primary);
+  color: yellowgreen;
+}
+
+.btn-secondary :hover {
+  background: var(--secondary);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(41, 104, 163, 0.2);
+}
+rgb

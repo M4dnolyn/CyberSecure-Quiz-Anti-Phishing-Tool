@@ -3,7 +3,44 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>hello</title>
+    <title>CyberSecure-Quiz-Anti-Phishing-Tool</title>
+    <link rel="stylesheet" href="style.css" />
+    <script type="module" src="script.js"></script>
   </head>
-  <body></body>
+  <body>
+    <header>
+      <h1>
+        « Bienvenue sur CyberSecure : Teste tes connaissances & protège-toi du
+        phishing »
+      </h1>
+    </header>
+    <div class="container">
+      <!--Ecran d'acceuil-->
+      <div class="card welcome-screen" id="welcomeScreen">
+        <h2>
+          Apprends en t’amusant grâce à notre quiz et vérifie si un lien est
+          sécurisé.
+        </h2>
+        <p>
+          Ce site a été conçu pour sensibiliser à la cybersécurité et aider à
+          détecter les menaces en ligne.
+        </p>
+        <button class="btn btn-primary" id="startQuizBtn">
+          🎯 Commencer le Quiz
+        </button>
+        <button class="btn btn-secondary" id="startControlBtn">
+          🔒 Vérifier un lien
+        </button>
+      </div>
+      <div>
+        <!--Ecran de quiz-->
+        <div class="card quiz-screen hidden" id="quizScreen">
+          <div class="progress-bar">
+            <div class="progress" id="progressBar"></div>
+          </div>
+          <div class="question-text" id="questionText"></div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
