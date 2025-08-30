@@ -1,6 +1,4 @@
-/*Variables CSS pour une gestion facile des couleurs on utilise :root pour les variables globales
-*/
-
+/* Variables CSS globales */
 :root {
   --primary: #265e74;
   --secondary: #280131;
@@ -10,15 +8,13 @@
   --dark: #212529;
 }
 
-/* Réinstialisation des styles par defaut des navigateurs */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Segoe UI";
-
-  /*Styles de base pour */
+  font-family: "Segoe UI", sans-serif;
 }
+
 body {
   background-color: #f0f2f5;
   color: var(--dark);
@@ -26,7 +22,7 @@ body {
   display: flex;
   flex-direction: column;
 }
-/* En-tete de la page */
+
 header {
   background: linear-gradient(135deg, var(--primary), var(--secondary));
   color: white;
@@ -35,7 +31,6 @@ header {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-/* Conteneur principal */
 .container {
   max-width: 800px;
   margin: 2rem auto;
@@ -47,30 +42,27 @@ header {
   background: white;
   border-radius: 12px;
   padding: 2rem;
-  box-shadow: 0 6px 15 px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
   margin-bottom: 2rem;
   transition: transform 0.3s ease;
 }
 
-.card: :hover {
+.card:hover {
   transform: translateY(-5px);
 }
 
-/*Alignement du texte au centre pour les écrans */
 .welcome-screen {
   text-align: center;
 }
 .welcome-screen h2 {
   margin-bottom: 1rem;
-  color: var(rgb(238, 255, 0));
+  color: rgb(155, 163, 36);
 }
-
 .welcome-screen p {
   margin-bottom: 2rem;
   color: #353232;
 }
 
-/* Styles de bases pour les boutons */
 .btn {
   padding: 0.8rem 1.5rem;
   border: none;
@@ -85,8 +77,7 @@ header {
   background: var(--primary);
   color: yellowgreen;
 }
-
-.btn-primary :hover {
+.btn-primary:hover {
   background: var(--secondary);
   transform: translateY(-2px);
   box-shadow: 0 4px 8px rgba(41, 104, 163, 0.2);
@@ -96,9 +87,65 @@ header {
   background: var(--primary);
   color: yellowgreen;
 }
-
-.btn-secondary :hover {
+.btn-secondary:hover {
   background: var(--secondary);
   transform: translateY(-2px);
   box-shadow: 0 4px 8px rgba(41, 104, 163, 0.2);
+}
+
+.hidden {
+  display: none;
+}
+
+/* Styles spécifiques à la page Quiz */
+
+/* Conteneur du quiz */
+#quiz-container {
+  background: white;
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  margin: 2rem auto;
+  max-width: 600px;
+}
+
+/* Questions */
+#quiz-container h2 {
+  margin-bottom: 1.5rem;
+  color: var(--primary);
+}
+
+/* Liste des options */
+#quiz-container ul {
+  list-style: none;
+  padding: 0;
+}
+
+#quiz-container li {
+  margin-bottom: 1rem;
+}
+
+/* Boutons de réponse */
+#quiz-container button {
+  width: 100%;
+  padding: 0.8rem;
+  border: none;
+  border-radius: 8px;
+  background-color: var(--primary);
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+#quiz-container button:hover {
+  background-color: var(--secondary);
+  transform: translateY(-2px);
+}
+
+/* Score final */
+#quiz-container p {
+  font-size: 1.2rem;
+  margin-top: 1rem;
+  text-align: center;
 }

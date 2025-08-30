@@ -53,5 +53,201 @@
       "Répondre à l'email pour demander des détails"
     ],
     "answer": 2
+  },
+  {
+    "id": 6,
+    "question": "Que signifie HTTPS ?",
+    "options": [
+      "HyperText Transfer Protocol Secure",
+      "High Tech Transfer System",
+      "HyperText Terminal Protocol Secure"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 7,
+    "question": "Quel est le moyen le plus sûr de protéger ses mots de passe ?",
+    "options": [
+      "Les écrire sur un carnet",
+      "Utiliser un gestionnaire de mots de passe",
+      "Les partager avec ses amis"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 8,
+    "question": "Qu’est-ce qu’un phishing ?",
+    "options": [
+      "Une technique de piratage pour obtenir des infos",
+      "Un type de virus informatique",
+      "Un jeu vidéo"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 9,
+    "question": "Quel est l’objectif d’un antivirus ?",
+    "options": [
+      "Empêcher les virus et malwares d’infecter l’ordinateur",
+      "Augmenter la vitesse du PC",
+      "Supprimer les fichiers inutiles"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 10,
+    "question": "Que signifie VPN ?",
+    "options": [
+      "Virtual Private Network",
+      "Very Protected Network",
+      "Verified Public Network"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 11,
+    "question": "Que fait une attaque par ransomware ?",
+    "options": [
+      "Elle bloque l’accès aux fichiers et demande une rançon",
+      "Elle efface les emails",
+      "Elle change les mots de passe du système"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 12,
+    "question": "Que doit-on éviter pour sécuriser son mot de passe ?",
+    "options": [
+      "Utiliser un mot de passe complexe",
+      "Utiliser le même mot de passe partout",
+      "Changer régulièrement le mot de passe"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 13,
+    "question": "Qu’est-ce qu’un malware ?",
+    "options": [
+      "Un logiciel malveillant",
+      "Un navigateur web",
+      "Une mise à jour du système"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 14,
+    "question": "Quel est l’objectif d’une attaque DDoS ?",
+    "options": [
+      "Rendre un site ou service indisponible",
+      "Voler des mots de passe",
+      "Supprimer un compte"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 15,
+    "question": "Que signifie l’acronyme SQL ?",
+    "options": [
+      "Structured Query Language",
+      "Secure Query Line",
+      "System Quality Level"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 16,
+    "question": "Quelle est la bonne pratique lors de l’ouverture d’un email inconnu ?",
+    "options": [
+      "Cliquer sur tous les liens",
+      "Ne jamais ouvrir les pièces jointes suspectes",
+      "Répondre pour demander la vérification"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 17,
+    "question": "Qu’est-ce qu’un pare-feu (firewall) ?",
+    "options": [
+      "Un logiciel qui contrôle le trafic réseau",
+      "Un antivirus",
+      "Une application de messagerie"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 18,
+    "question": "Qu’est-ce qu’un cookie ?",
+    "options": [
+      "Un fichier stocké par un site web pour garder des infos",
+      "Un virus",
+      "Un type de mot de passe"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 19,
+    "question": "Qu’est-ce que le social engineering ?",
+    "options": [
+      "Technique pour tromper une personne et obtenir des infos",
+      "Une attaque sur un réseau",
+      "Un logiciel de sécurité"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 20,
+    "question": "Que permet l’authentification à deux facteurs (2FA) ?",
+    "options": [
+      "Renforcer la sécurité avec deux étapes de vérification",
+      "Remplacer le mot de passe par un code",
+      "Partager le mot de passe avec un ami"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 21,
+    "question": "Quel type de malware espionne vos activités en ligne ?",
+    "options": ["Spyware", "Ransomware", "Trojan"],
+    "answer": 0
+  },
+  {
+    "id": 22,
+    "question": "Que signifie HTTPS et pourquoi est-ce important ?",
+    "options": [
+      "Connexion sécurisée pour protéger les données",
+      "Connexion rapide",
+      "Connexion uniquement pour mobiles"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 23,
+    "question": "Que faire si un lien suspect arrive par email ?",
+    "options": [
+      "Ne pas cliquer et vérifier l’URL",
+      "Cliquer pour tester",
+      "Répondre à l’email pour demander des infos"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 24,
+    "question": "Quelle est la pratique recommandée pour les mises à jour ?",
+    "options": [
+      "Toujours mettre à jour le système et les logiciels",
+      "Ne jamais mettre à jour",
+      "Mettre à jour une fois par an"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 25,
+    "question": "Que signifie le terme 'Zero-day' ?",
+    "options": [
+      "Vulnérabilité non connue des éditeurs",
+      "Mise à jour quotidienne",
+      "Un type de virus ancien"
+    ],
+    "answer": 0
   }
 ]
