@@ -58,11 +58,12 @@
     "id": 6,
     "question": "Que signifie HTTPS ?",
     "options": [
-      "HyperText Transfer Protocol Secure",
+      "HyperTech Terminal Protocol System",
       "High Tech Transfer System",
+      "HyperText Transfer Protocol Secure",
       "HyperText Terminal Protocol Secure"
     ],
-    "answer": 0
+    "answer": 2
   },
   {
     "id": 7,
@@ -70,7 +71,8 @@
     "options": [
       "Les écrire sur un carnet",
       "Utiliser un gestionnaire de mots de passe",
-      "Les partager avec ses amis"
+      "Les partager avec ses amis",
+      "Aucun moyen sûr"
     ],
     "answer": 1
   },
@@ -78,11 +80,12 @@
     "id": 8,
     "question": "Qu’est-ce qu’un phishing ?",
     "options": [
-      "Une technique de piratage pour obtenir des infos",
+      "Un lien malveillant",
       "Un type de virus informatique",
-      "Un jeu vidéo"
+      "Un jeu vidéo",
+      "Une technique de piratage pour obtenir des infos"
     ],
-    "answer": 0
+    "answer": 3
   },
   {
     "id": 9,
@@ -108,11 +111,11 @@
     "id": 11,
     "question": "Que fait une attaque par ransomware ?",
     "options": [
-      "Elle bloque l’accès aux fichiers et demande une rançon",
       "Elle efface les emails",
-      "Elle change les mots de passe du système"
+      "Elle change les mots de passe du système",
+      "Elle bloque l’accès aux fichiers et demande une rançon"
     ],
-    "answer": 0
+    "answer": 2
   },
   {
     "id": 12,
@@ -168,11 +171,11 @@
     "id": 17,
     "question": "Qu’est-ce qu’un pare-feu (firewall) ?",
     "options": [
-      "Un logiciel qui contrôle le trafic réseau",
       "Un antivirus",
+      "Un logiciel qui contrôle le trafic réseau",
       "Une application de messagerie"
     ],
-    "answer": 0
+    "answer": 1
   },
   {
     "id": 18,
@@ -188,21 +191,21 @@
     "id": 19,
     "question": "Qu’est-ce que le social engineering ?",
     "options": [
-      "Technique pour tromper une personne et obtenir des infos",
       "Une attaque sur un réseau",
-      "Un logiciel de sécurité"
+      "Un logiciel de sécurité",
+      "Technique pour tromper une personne et obtenir des infos"
     ],
-    "answer": 0
+    "answer": 2
   },
   {
     "id": 20,
     "question": "Que permet l’authentification à deux facteurs (2FA) ?",
     "options": [
-      "Renforcer la sécurité avec deux étapes de vérification",
       "Remplacer le mot de passe par un code",
+      "Renforcer la sécurité avec deux étapes de vérification",
       "Partager le mot de passe avec un ami"
     ],
-    "answer": 0
+    "answer": 1
   },
   {
     "id": 21,
@@ -234,11 +237,12 @@
     "id": 24,
     "question": "Quelle est la pratique recommandée pour les mises à jour ?",
     "options": [
-      "Toujours mettre à jour le système et les logiciels",
       "Ne jamais mettre à jour",
-      "Mettre à jour une fois par an"
+      "Mettre à jour une fois par an",
+      "Toujours mettre à jour le système et les logiciels",
+      "Toujours mettre à jour le système et les logiciels une fois par an"
     ],
-    "answer": 0
+    "answer": 2
   },
   {
     "id": 25,
