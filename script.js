@@ -68,6 +68,12 @@ function showScore() {
     <button onclick="restartQuiz()" class="btn">Rejouer</button>
   `;
 
+  if (score <= 10) {
+    alert("Score <= 10 : Débutant 🐣");
+  } else {
+    alert("Score > 10 : Cyber expert 💻🔥");
+  }
+
   // 👉 on cache le bouton suivant quand le quiz est fini
   document.getElementById("next-btn").classList.add("hidden");
 }
