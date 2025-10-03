@@ -41,11 +41,11 @@ function checkAnswer(selectedIndex) {
     score++;
   }
 
-  // 👉 S'il reste des questions, on montre le bouton "suivant"
+  // S'il reste des questions, on montre le bouton "suivant"
   if (currentQuestionIndex < questions.length - 1) {
     document.getElementById("next-btn").classList.remove("hidden");
   } else {
-    // 👉 si c’est la dernière question, pas de bouton "suivant", on montre directement le score
+    //  si c’est la dernière question, pas de bouton "suivant", on montre directement le score
     showScore();
   }
 }
@@ -59,29 +59,27 @@ document.getElementById("next-btn").addEventListener("click", () => {
     showScore();
   }
 });
-
+// affichage du score
 function showScore() {
   let container = document.getElementById("quiz-container");
   container.innerHTML = `
-    <h2>🎉 Quiz terminé !</h2>
+    <h2> Quiz terminé !</h2>
     <p>Ton score : ${score} / ${questions.length}</p>
     <button onclick="restartQuiz()" class="btn">Rejouer</button>
   `;
 
   if (score <= 10) {
-    alert("Score <= 10 : Débutant 🐣");
+    alert("Score <= 10 : Débutant ");
   } else {
-    alert("Score > 10 : Cyber expert 💻🔥");
+    alert("Score > 10 : Cyber expert ");
   }
 
-  // 👉 on cache le bouton suivant quand le quiz est fini
+  //  on cache le bouton suivant quand le quiz est fini
   document.getElementById("next-btn").classList.add("hidden");
 }
-
+//
 function restartQuiz() {
   currentQuestionIndex = 0;
   score = 0;
   showQuestion();
-
-  // 👉 quand on rejoue, le bouton "suivant" réapparaît normalement après la première réponse
 }

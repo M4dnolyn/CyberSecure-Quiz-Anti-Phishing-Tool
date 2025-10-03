@@ -1,30 +1,38 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Phishing Page</title>
+    <link rel="stylesheet" href="style.css" />
+    <title>Phishing Page — CyberSecure</title>
   </head>
   <body>
-    <header>
-      <h1>
-        Bienvenue sur la page phishing/CyberSecure: Envie de vérifier ton lien?
-      </h1>
-    </header>
-    <main class="container">
-      <section class="card">
-        <h2>Vérifier une URL</h2>
-        <p>Colle un lien ci-dessous et clique sur <strong>Analyser</strong>.</p>
+    <div class="phishing-page">
+      <div class="container-phish">
+        <header class="phish-header">
+          <h1>Bienvenue sur la page phishing / CyberSecure</h1>
+          <p>
+            Envie de vérifier un lien rapidement ? Colle-le ci-dessous et clique
+            sur <strong>Analyser</strong>.
+          </p>
+        </header>
 
-        <div class="row">
-          <input id="url-input" type="url" placeholder="https://verifier.com" />
-          <button id="check-btn">Analyser</button>
-        </div>
+        <section class="phish-card">
+          <div class="row">
+            <input
+              id="url-input"
+              type="url"
+              placeholder="https://verifier.com"
+            />
+            <button id="check-btn">Analyser</button>
+          </div>
 
-        <div id="result-area"></div>
-        <div id="history-area"></div>
-      </section>
-    </main>
+          <div id="result-area"></div>
+          <div id="history-area" class="help"></div>
+        </section>
+      </div>
+    </div>
+
     <script src="phishing.js"></script>
   </body>
 </html>
